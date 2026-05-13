@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTE | College of Computing and Technology Engineering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a class="brand" href="#home"><span>C</span>CCTE</a>
+            <nav class="nav-links">
+                <a href="#features">Programs</a>
+                <a href="#about">About CCTE</a>
+                <a href="#contact">Contact</a>
+                <button id="themeToggle" class="theme-toggle" type="button">Dark Mode</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <div class="hero-copy">
+                <p style="color: var(--accent); text-transform: uppercase; letter-spacing: 0.2em; font-weight: 700; margin-bottom: 1rem;">College of Computing and Technology Engineering</p>
+                <h1>CCTE empowers future technologists, engineers, and leaders.</h1>
+                <p>The College of Computing and Technology Engineering blends rigorous education, applied research, and industry collaboration to solve real-world challenges.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                    <a href="#features" class="btn btn-secondary">Explore Programs</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="card-grid">
+                    <article class="card">
+                        <small>Mission</small>
+                        <h3>Innovation through education</h3>
+                        <p>CCTE teaches computing and technology engineering principles that shape the next generation of technology.</p>
+                    </article>
+                    <article class="card">
+                        <small>Impact</small>
+                        <h3>Industry-ready graduates</h3>
+                        <p>Students gain practical skills, teamwork experience, and a deep understanding of emerging systems.</p>
+                    </article>
+                    <article class="card">
+                        <small>Vision</small>
+                        <h3>Driving community progress</h3>
+                        <p>Strong technical training helps solve challenges in sustainability, infrastructure, and digital equity.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="section-title">
+                <div>
+                    <h2>CCTE academic strengths</h2>
+                    <p>Learn how CCTE prepares students for careers in software, systems design, hardware engineering, and leadership.</p>
+                </div>
+            </div>
+            <div class="features">
+                <article class="feature-card">
+                    <h3>Computing programs</h3>
+                    <p>Offers degrees in computer science, software engineering, data analytics, and cybersecurity.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Engineering expertise</h3>
+                    <p>Provides strong foundations in electrical, mechanical, and systems engineering disciplines.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Real-world research</h3>
+                    <p>Students and faculty collaborate on projects that advance technology and serve communities.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Career impact</h3>
+                    <p>Graduates enter high-demand fields with the skills to innovate, build, and lead.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-title">
+                <div>
+                    <h2>What is CCTE?</h2>
+                    <p>The College of Computing and Technology Engineering focuses on education, research, and innovation that prepare students to shape the digital and physical world.</p>
+                </div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <div class="detail-card">
+                        <h4>Core mission</h4>
+                        <p>CCTE equips students with practical technical skills, problem-solving ability, and ethical awareness.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Why it matters</h4>
+                        <p>Computing and engineering drive innovation, economic growth, infrastructure, and sustainable solutions worldwide.</p>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <h4>Community impact</h4>
+                    <p>CCTE creates partnerships across industry, government, and academia to deliver projects that improve lives.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-title">
+                <div>
+                    <h2>Contact me</h2>
+                </div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <div class="detail-card">
+                        <h4>Email</h4>
+                        <p>manjaresboy20@gmail.com</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Location</h4>
+                        <p>Lipa City, Batangas, Philippines</p>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <label>
+                        Name
+                        <input type="text" name="name" placeholder="Your name" required>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="you@example.com" required>
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" placeholder="Tell me about your project" required></textarea>
+                    </label>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div id="notification" class="detail-card hidden" style="margin-top: 1.25rem;">
+                <h4>Message sent!</h4>
+                <p>Thank you for reaching out. This demo form resets and shows confirmation instantly.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Made by Reily Manjares.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
